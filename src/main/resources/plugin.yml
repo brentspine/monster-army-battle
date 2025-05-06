@@ -1,0 +1,70 @@
+name: MonsterArmyBattle
+version: '1.0-SNAPSHOT'
+main: de.brentspine.monsterArmyBattle.MonsterArmyBattle
+api-version: '1.21'
+author: Brentspine
+
+commands:
+    changeteamamount:
+        description: Change the amount of teams
+        usage: /<command> <amount>
+        permission: monsterarmybattle.changeteamamount
+    resetteams:
+        description: Reset the teams
+        usage: /<command>
+        permission: monsterarmybattle.resetteams
+    start:
+        description: Start the game
+        usage: /<command>
+        permission: monsterarmybattle.start
+    timer:
+        description: Set the timer
+        usage: /<command> <action> [other]
+        permission: monsterarmybattle.timer
+    findrandomizermapping:
+        description: Find a randomizer mapping
+        usage: /<command> <item>
+        permission: monsterarmybattle.findrandomizermapping
+    currentarmy:
+        description: Get the current army
+        usage: /<command>
+        permission: monsterarmybattle.currentarmy
+    startwaveconfig:
+        description: Start the wave config
+        usage: /<command>
+        permission: monsterarmybattle.startwaveconfig
+    waves:
+        description: Config the waves
+        usage: /<command>
+    startbattle:
+        description: Start the battle
+        usage: /<command>
+        permission: monsterarmybattle.startbattle
+    editworlds:
+        description: Edit the worlds
+        usage: /<command>
+        permission: monsterarmybattle.editworlds
+    locationhelper:
+        description: Get the location helper
+        usage: /<command>
+        permission: monsterarmybattle.locationhelper
+    addtoarmy:
+        description: Add to the army
+        usage: /<command> <item>
+        permission: monsterarmybattle.addtoarmy
+    backpack:
+        aliases:
+            - bp
+        description: Open the backpack
+        usage: /<command>
+    mabsettings:
+        description: Open the settings
+        usage: /<command> <setting> <value>
+        permission: monsterarmybattle.mabsettings
+    announcebattleresult:
+        description: Announce the battle result
+        usage: /<command> <result>
+        permission: monsterarmybattle.announcebattleresult
+    addglowing:
+        description: Add glowing to a player
+        usage: /<command> <player>
