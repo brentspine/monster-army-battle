@@ -68,3 +68,6 @@ commands:
     addglowing:
         description: Add glowing to a player
         usage: /<command> <player>
+    mabhelp:
+        description: Get help
+        usage: /<command>

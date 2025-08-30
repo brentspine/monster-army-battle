@@ -56,6 +56,7 @@ public class Resetter {
         MonsterArmyBattle.lobbySpawnLocation = world.getSpawnLocation();
         MonsterArmyBattle.playerJoinListener.allowJoin = true;
         world.setStorm(false);
+        world.setThundering(false);
         world.setClearWeatherDuration(1000000);
         world.setTime(1000);
         world.setDifficulty(Difficulty.PEACEFUL);

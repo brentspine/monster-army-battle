@@ -39,6 +39,9 @@ public class Team {
 
     public void callMeWhenConfigurationIsReady() {
         waveConfigurationInventory.fillMobs();
+        for(Player p : players) {
+            p.sendMessage(Component.text("§a[Waves Konfigurieren]").clickEvent(net.kyori.adventure.text.event.ClickEvent.runCommand("/waves")));
+        }
     }
 
     public Inventory getWaveConfigurationInventory() {

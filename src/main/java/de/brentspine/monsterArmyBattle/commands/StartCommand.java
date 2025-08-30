@@ -3,6 +3,7 @@ package de.brentspine.monsterArmyBattle.commands;
 import de.brentspine.monsterArmyBattle.MonsterArmyBattle;
 import de.brentspine.monsterArmyBattle.inventories.TeamSelectionInventory;
 import de.brentspine.monsterArmyBattle.util.*;
+import net.kyori.adventure.text.Component;
 import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -131,6 +132,10 @@ public class StartCommand implements CommandExecutor {
 
         MonsterArmyBattle.instance.getLogger().log(Level.INFO, "Farmphase init complete");
         sender.sendMessage("§aDie Farmphase wurde gestartet.");
+
+        for(Player p : Bukkit.getOnlinePlayers()) {
+            p.sendMessage(Component.text("§a[Commands anzeigen]").clickEvent(net.kyori.adventure.text.event.ClickEvent.runCommand("/mabhelp")));
+        }
         //TeamSelectionInventory.closeAll();
         return true;
     }

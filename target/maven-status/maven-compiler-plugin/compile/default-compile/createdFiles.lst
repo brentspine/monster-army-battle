@@ -25,6 +25,7 @@ de\brentspine\monsterArmyBattle\listeners\LobbyListeners.class
 de\brentspine\monsterArmyBattle\util\GameState.class
 de\brentspine\monsterArmyBattle\listeners\PlayerJoinListener$1.class
 de\brentspine\monsterArmyBattle\util\Army.class
+de\brentspine\monsterArmyBattle\commands\MabHelpCommand.class
 de\brentspine\monsterArmyBattle\commands\MabSettingsCommand.class
 de\brentspine\monsterArmyBattle\inventories\WaveConfigurationInventory.class
 de\brentspine\monsterArmyBattle\util\ActionbarManager.class

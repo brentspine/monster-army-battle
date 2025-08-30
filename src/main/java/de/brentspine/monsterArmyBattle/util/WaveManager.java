@@ -28,7 +28,7 @@ import java.util.logging.Logger;
 
 public class WaveManager implements Listener {
 
-    private static final int RESPAWN_TIME = 30; // seconds
+    private static final int RESPAWN_TIME = 20; // seconds
     private static final int INVINCIBILITY_TIME = 5; // seconds
 
     // Static config parts

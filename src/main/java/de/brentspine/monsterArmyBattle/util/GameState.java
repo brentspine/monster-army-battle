@@ -7,7 +7,7 @@ public enum GameState {
     CONFIGURATION("Configuration"),
     BATTLE("Battle");
 
-    private String name;
+    private final String name;
 
     GameState(String name) {
         this.name = name;

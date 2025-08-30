@@ -63,6 +63,7 @@ public final class MonsterArmyBattle extends JavaPlugin {
         Objects.requireNonNull(getCommand("mabsettings")).setExecutor(new MabSettingsCommand());
         Objects.requireNonNull(getCommand("announcebattleresult")).setExecutor(new AnnounceBattleResultCommand());
         Objects.requireNonNull(getCommand("addglowing")).setExecutor(new AddGlowingCommand());
+        Objects.requireNonNull(getCommand("mabhelp")).setExecutor(new MabHelpCommand());
 
         // Sets lobbySpawnLocation
         Resetter.resetWorlds();
